@@ -5,7 +5,7 @@ import {
 
 import { sumSmallNumbers } from "../katas/04-sum-small-numbers.js";
 
-Deno.test("sumSmallNumbers returns a boolean", () => {
+Deno.test("sumSmallNumbers returns a number", () => {
   const input1 = 0;
   const input2 = 0;
   const result = sumSmallNumbers(input1, input2);
