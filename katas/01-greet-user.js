@@ -1,5 +1,3 @@
-function greetUser(name) {
-
+export function greetUser(name) {
+    
 }
-
-module.exports = { greetUser }

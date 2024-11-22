@@ -1,5 +1,3 @@
-function countVowels(string) {
+export function countVowels(string) {
 
 }
-
-module.exports = { countVowels }

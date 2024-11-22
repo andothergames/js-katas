@@ -1,5 +1,4 @@
-function convertToFahrenheit(celsius) {
+export function convertToFahrenheit(celsius) {
 
 }
 
-module.exports = { convertToFahrenheit }

@@ -1,5 +1,3 @@
-function sumSmallNumbers(number1, number2) {
+export function sumSmallNumbers(num1, num2) {
 
 }
-
-module.exports = { sumSmallNumbers }

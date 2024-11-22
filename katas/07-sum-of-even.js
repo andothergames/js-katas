@@ -1,5 +1,3 @@
-function sumOfEven(arrayOfNumbers) {
+export function sumOfEven(arrayOfNumbers) {
 
 }
-
-module.exports = { sumOfEven }

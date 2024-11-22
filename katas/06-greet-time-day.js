@@ -1,5 +1,3 @@
-function greetByTimeOfDay(time) {
+export function greetByTimeOfDay(time) {
 
 }
-
-module.exports = { greetByTimeOfDay }

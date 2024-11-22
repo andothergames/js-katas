@@ -1,5 +1,3 @@
-function isEven(number) {
+export function isEven(number) {
 
 }
-
-module.exports = { isEven }
