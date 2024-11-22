@@ -1,27 +1,39 @@
-const { convertToFahrenheit } = require("../katas/02-convert-to-f")
+import {
+  assertEquals,
+  assertStrictEquals,
+} from "https://deno.land/std/testing/asserts.ts";
 
-describe("convertToFahrenheit", () => {
-  test("returns a string", () => {
-    const input = 0;
-    const result = convertToFahrenheit(input);
-    expect(typeof result).toBe("string");
-  });
+import { convertToFahrenheit } from "../katas/02-convert-to-f.js";
 
-  test("returns correct conversion of temperature  when given a positive integer", () => {
+Deno.test("convertToFahrenheit returns a string", () => {
+  const input = 0;
+  const result = convertToFahrenheit(input);
+  assertStrictEquals(typeof result, "string");
+});
+
+Deno.test(
+  "convertToFahrenheit returns correct conversion of temperature when given a positive number",
+  () => {
     const input = 30;
     const result = convertToFahrenheit(input);
-    expect(result).toBe("86F");
-  });
+    assertEquals(result, "86F");
+  }
+);
 
-  test("returns correct conversion of temperature when given a negative integer", () => {
+Deno.test(
+  "convertToFahrenheit returns correct conversion of temperature when given a negative number",
+  () => {
     const input = -10;
     const result = convertToFahrenheit(input);
-    expect(result).toBe("14F");
-  });
+    assertEquals(result, "14F");
+  }
+);
 
-  test("returns correct conversion of temperature when converted temperature is a negative integer", () => {
+Deno.test(
+  "convertToFahrenheit returns correct conversion of temperature when converted temperature is a negative number",
+  () => {
     const input = -100;
     const result = convertToFahrenheit(input);
-    expect(result).toBe("-148F");
-  });
-  });
+    assertEquals(result, "-148F");
+  }
+);
