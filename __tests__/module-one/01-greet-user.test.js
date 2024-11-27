@@ -1,6 +1,6 @@
 import { assertEquals, assertStrictEquals } from "https://deno.land/std/testing/asserts.ts";
 
-import { greetUser } from "../katas/01-greet-user.js";
+import { greetUser } from "../../katas/module-one/01-greet-user.js";
 
 
   Deno.test("greetUser returns a string", () => {

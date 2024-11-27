@@ -3,7 +3,7 @@ import {
   assertStrictEquals,
 } from "https://deno.land/std/testing/asserts.ts";
 
-import { greetByTimeOfDay } from "../katas/06-greet-time-day.js";
+import { greetByTimeOfDay } from "../../katas/module-one/07-greet-time-day.js";
 
 Deno.test("greetByTimeOfDay returns a string", () => {
   const input = 0;

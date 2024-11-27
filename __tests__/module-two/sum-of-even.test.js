@@ -3,7 +3,7 @@ import {
   assertStrictEquals,
 } from "https://deno.land/std/testing/asserts.ts";
 
-import { sumOfEven } from "../katas/07-sum-of-even.js";
+import { sumOfEven } from "../../katas/module-two/sum-of-even.js";
 
 Deno.test("sumOfEven returns a number", () => {
   const input = [1, 2];

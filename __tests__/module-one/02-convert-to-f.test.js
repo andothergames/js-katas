@@ -3,7 +3,7 @@ import {
   assertStrictEquals,
 } from "https://deno.land/std/testing/asserts.ts";
 
-import { convertToFahrenheit } from "../katas/02-convert-to-f.js";
+import { convertToFahrenheit } from "../../katas/module-one/02-convert-to-f.js";
 
 Deno.test("convertToFahrenheit returns a string", () => {
   const input = 0;

@@ -3,7 +3,7 @@ import {
   assertStrictEquals,
 } from "https://deno.land/std/testing/asserts.ts";
 
-import { isEven } from "../katas/03-is-even.js";
+import { isEven } from "../../katas/module-one/03-is-even.js";
 
 Deno.test("isEven returns a boolean", () => {
   const input = 10;

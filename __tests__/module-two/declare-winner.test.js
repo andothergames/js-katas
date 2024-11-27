@@ -3,7 +3,7 @@ import {
   assertStrictEquals,
 } from "https://deno.land/std/testing/asserts.ts";
 
-import { declareWinner } from "../katas/05-declare-winner.js";
+import { declareWinner } from "../../katas/module-two/declare-winner.js";
 
 Deno.test("declareWinner returns a string", () => {
   const input1 = { name: "Player1", score: 0 };

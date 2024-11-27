@@ -3,7 +3,7 @@ import {
   assertStrictEquals,
 } from "https://deno.land/std/testing/asserts.ts";
 
-import { sumSmallNumbers } from "../katas/04-sum-small-numbers.js";
+import { sumSmallNumbers } from "../../katas/module-one/06-sum-small-numbers.js";
 
 Deno.test("sumSmallNumbers returns a number", () => {
   const input1 = 0;

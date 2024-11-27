@@ -3,7 +3,7 @@ import {
   assertStrictEquals,
 } from "https://deno.land/std/testing/asserts.ts";
 
-import { countVowels } from "../katas/08-count-vowels.js";
+import { countVowels } from "../../katas/module-one/08-count-vowels.js";
 
 Deno.test("countVowels returns a number", () => {
   const input = "hello";
